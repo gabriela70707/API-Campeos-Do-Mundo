@@ -2,4 +2,24 @@
 .env
 
 # Ignorar dependências Python
-__pycache__
+__pycache__/
+*.py[cod]
+
+# Ignorar logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignorar configurações do editor de código
+.vscode/
+.idea/
+
+# Ignorar arquivos de compilação
+*.egg-info/
+dist/
+build/
+
+# Ignorar configurações de SO
+.DS_Store
+Thumbs.db

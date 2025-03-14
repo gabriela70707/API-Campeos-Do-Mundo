@@ -1,0 +1,5 @@
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar dependências Python
+__pycache__

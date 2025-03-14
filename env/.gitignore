@@ -2,7 +2,7 @@
 .env
 
 # Ignorar dependências Python
-__pycache__/
+__pycache__
 *.py[cod]
 
 # Ignorar logs e arquivos temporários
